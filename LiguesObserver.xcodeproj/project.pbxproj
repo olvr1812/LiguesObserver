@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9120CFD28D8592900F809C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120CFC28D8592900F809C9 /* AppDelegate.swift */; };
+		F9120CFF28D8592900F809C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120CFE28D8592900F809C9 /* SceneDelegate.swift */; };
+		F9120D0128D8592900F809C9 /* LiguesBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120D0028D8592900F809C9 /* LiguesBoardController.swift */; };
+		F9120D0428D8592900F809C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9120D0228D8592900F809C9 /* Main.storyboard */; };
+		F9120D0728D8592900F809C9 /* LiguesObserver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9120D0528D8592900F809C9 /* LiguesObserver.xcdatamodeld */; };
+		F9120D0928D8592A00F809C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9120D0828D8592A00F809C9 /* Assets.xcassets */; };
+		F9120D0C28D8592A00F809C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9120D0A28D8592A00F809C9 /* LaunchScreen.storyboard */; };
+		F9120D1928D85BD600F809C9 /* LiguesBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120D1828D85BD600F809C9 /* LiguesBoardView.swift */; };
+		F9120D1C28D8640900F809C9 /* CellForLiguesBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120D1B28D8640900F809C9 /* CellForLiguesBoard.swift */; };
+		F9120D1F28D8D76C00F809C9 /* imageDowload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120D1E28D8D76C00F809C9 /* imageDowload.swift */; };
+		F9120D2128D8D7FE00F809C9 /* LiguesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120D2028D8D7FE00F809C9 /* LiguesModel.swift */; };
+		F9120D2328D8D91600F809C9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120D2228D8D91600F809C9 /* NetworkManager.swift */; };
+		F9120D2528D8E7E300F809C9 /* LiguesLocaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9120D2428D8E7E300F809C9 /* LiguesLocaleStore.swift */; };
+		F984235228D9D68600344CF6 /* SeasonsLigueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984235128D9D68600344CF6 /* SeasonsLigueView.swift */; };
+		F984235428D9D6A900344CF6 /* HeaderSeasonsLigue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984235328D9D6A900344CF6 /* HeaderSeasonsLigue.swift */; };
+		F984235628D9D6B500344CF6 /* CellSeasonsLigue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984235528D9D6B500344CF6 /* CellSeasonsLigue.swift */; };
+		F984235828DA04F400344CF6 /* SeasonsLigueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984235728DA04F400344CF6 /* SeasonsLigueController.swift */; };
+		F984235A28DA08A600344CF6 /* SeasonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984235928DA08A600344CF6 /* SeasonsModel.swift */; };
+		F984235E28DB5B0400344CF6 /* SeasonStandingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984235D28DB5B0400344CF6 /* SeasonStandingsTableView.swift */; };
+		F984236028DB5C1900344CF6 /* SeasonStandingsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984235F28DB5C1900344CF6 /* SeasonStandingsTableController.swift */; };
+		F984236228DB7E7C00344CF6 /* StandigsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984236128DB7E7C00344CF6 /* StandigsModel.swift */; };
+		F9FB8E0D28DC568F00C77274 /* CellSeasonStandingsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FB8E0C28DC568F00C77274 /* CellSeasonStandingsTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9120CF928D8592900F809C9 /* LiguesObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiguesObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9120CFC28D8592900F809C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9120CFE28D8592900F809C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9120D0028D8592900F809C9 /* LiguesBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguesBoardController.swift; sourceTree = "<group>"; };
+		F9120D0328D8592900F809C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9120D0628D8592900F809C9 /* LiguesObserver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiguesObserver.xcdatamodel; sourceTree = "<group>"; };
+		F9120D0828D8592A00F809C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9120D0B28D8592A00F809C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9120D0D28D8592A00F809C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9120D1828D85BD600F809C9 /* LiguesBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguesBoardView.swift; sourceTree = "<group>"; };
+		F9120D1B28D8640900F809C9 /* CellForLiguesBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForLiguesBoard.swift; sourceTree = "<group>"; };
+		F9120D1E28D8D76C00F809C9 /* imageDowload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDowload.swift; sourceTree = "<group>"; };
+		F9120D2028D8D7FE00F809C9 /* LiguesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguesModel.swift; sourceTree = "<group>"; };
+		F9120D2228D8D91600F809C9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F9120D2428D8E7E300F809C9 /* LiguesLocaleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguesLocaleStore.swift; sourceTree = "<group>"; };
+		F984235128D9D68600344CF6 /* SeasonsLigueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsLigueView.swift; sourceTree = "<group>"; };
+		F984235328D9D6A900344CF6 /* HeaderSeasonsLigue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSeasonsLigue.swift; sourceTree = "<group>"; };
+		F984235528D9D6B500344CF6 /* CellSeasonsLigue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSeasonsLigue.swift; sourceTree = "<group>"; };
+		F984235728DA04F400344CF6 /* SeasonsLigueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsLigueController.swift; sourceTree = "<group>"; };
+		F984235928DA08A600344CF6 /* SeasonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsModel.swift; sourceTree = "<group>"; };
+		F984235D28DB5B0400344CF6 /* SeasonStandingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonStandingsTableView.swift; sourceTree = "<group>"; };
+		F984235F28DB5C1900344CF6 /* SeasonStandingsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonStandingsTableController.swift; sourceTree = "<group>"; };
+		F984236128DB7E7C00344CF6 /* StandigsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandigsModel.swift; sourceTree = "<group>"; };
+		F9FB8E0C28DC568F00C77274 /* CellSeasonStandingsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSeasonStandingsTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9120CF628D8592900F809C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9120CF028D8592900F809C9 = {
+			isa = PBXGroup;
+			children = (
+				F9120CFB28D8592900F809C9 /* LiguesObserver */,
+				F9120CFA28D8592900F809C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9120CFA28D8592900F809C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9120CF928D8592900F809C9 /* LiguesObserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9120CFB28D8592900F809C9 /* LiguesObserver */ = {
+			isa = PBXGroup;
+			children = (
+				F9120D1D28D8D75300F809C9 /* Extension */,
+				F9120D1428D8594D00F809C9 /* Source */,
+				F9120D1328D8593900F809C9 /* Storyboards */,
+				F9120D1528D85A5C00F809C9 /* Models */,
+				F9120D1628D85A6400F809C9 /* Views */,
+				F9120D1728D85A6B00F809C9 /* Controllers */,
+				F9120D0828D8592A00F809C9 /* Assets.xcassets */,
+				F9120D0D28D8592A00F809C9 /* Info.plist */,
+				F9120D0528D8592900F809C9 /* LiguesObserver.xcdatamodeld */,
+			);
+			path = LiguesObserver;
+			sourceTree = "<group>";
+		};
+		F9120D1328D8593900F809C9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F9120D0A28D8592A00F809C9 /* LaunchScreen.storyboard */,
+				F9120D0228D8592900F809C9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F9120D1428D8594D00F809C9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F9120CFC28D8592900F809C9 /* AppDelegate.swift */,
+				F9120CFE28D8592900F809C9 /* SceneDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F9120D1528D85A5C00F809C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9120D2228D8D91600F809C9 /* NetworkManager.swift */,
+				F9120D2428D8E7E300F809C9 /* LiguesLocaleStore.swift */,
+				F9120D2028D8D7FE00F809C9 /* LiguesModel.swift */,
+				F984235928DA08A600344CF6 /* SeasonsModel.swift */,
+				F984236128DB7E7C00344CF6 /* StandigsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9120D1628D85A6400F809C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9120D1A28D863EC00F809C9 /* LiguesBoardView */,
+				F984235028D9D4EA00344CF6 /* SeasomsLigueView */,
+				F984235C28DB5AB400344CF6 /* SesonLigueTableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9120D1728D85A6B00F809C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9120D0028D8592900F809C9 /* LiguesBoardController.swift */,
+				F984235728DA04F400344CF6 /* SeasonsLigueController.swift */,
+				F984235F28DB5C1900344CF6 /* SeasonStandingsTableController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F9120D1A28D863EC00F809C9 /* LiguesBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				F9120D1828D85BD600F809C9 /* LiguesBoardView.swift */,
+				F9120D1B28D8640900F809C9 /* CellForLiguesBoard.swift */,
+			);
+			path = LiguesBoardView;
+			sourceTree = "<group>";
+		};
+		F9120D1D28D8D75300F809C9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F9120D1E28D8D76C00F809C9 /* imageDowload.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F984235028D9D4EA00344CF6 /* SeasomsLigueView */ = {
+			isa = PBXGroup;
+			children = (
+				F984235128D9D68600344CF6 /* SeasonsLigueView.swift */,
+				F984235328D9D6A900344CF6 /* HeaderSeasonsLigue.swift */,
+				F984235528D9D6B500344CF6 /* CellSeasonsLigue.swift */,
+			);
+			path = SeasomsLigueView;
+			sourceTree = "<group>";
+		};
+		F984235C28DB5AB400344CF6 /* SesonLigueTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F984235D28DB5B0400344CF6 /* SeasonStandingsTableView.swift */,
+				F9FB8E0C28DC568F00C77274 /* CellSeasonStandingsTable.swift */,
+			);
+			path = SesonLigueTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9120CF828D8592900F809C9 /* LiguesObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9120D1028D8592A00F809C9 /* Build configuration list for PBXNativeTarget "LiguesObserver" */;
+			buildPhases = (
+				F9120CF528D8592900F809C9 /* Sources */,
+				F9120CF628D8592900F809C9 /* Frameworks */,
+				F9120CF728D8592900F809C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiguesObserver;
+			productName = LiguesObserver;
+			productReference = F9120CF928D8592900F809C9 /* LiguesObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9120CF128D8592900F809C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F9120CF828D8592900F809C9 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F9120CF428D8592900F809C9 /* Build configuration list for PBXProject "LiguesObserver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9120CF028D8592900F809C9;
+			productRefGroup = F9120CFA28D8592900F809C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9120CF828D8592900F809C9 /* LiguesObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9120CF728D8592900F809C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9120D0C28D8592A00F809C9 /* LaunchScreen.storyboard in Resources */,
+				F9120D0928D8592A00F809C9 /* Assets.xcassets in Resources */,
+				F9120D0428D8592900F809C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9120CF528D8592900F809C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9120D2528D8E7E300F809C9 /* LiguesLocaleStore.swift in Sources */,
+				F984235828DA04F400344CF6 /* SeasonsLigueController.swift in Sources */,
+				F9120D2328D8D91600F809C9 /* NetworkManager.swift in Sources */,
+				F984235A28DA08A600344CF6 /* SeasonsModel.swift in Sources */,
+				F984235428D9D6A900344CF6 /* HeaderSeasonsLigue.swift in Sources */,
+				F9120D1928D85BD600F809C9 /* LiguesBoardView.swift in Sources */,
+				F984235628D9D6B500344CF6 /* CellSeasonsLigue.swift in Sources */,
+				F984235E28DB5B0400344CF6 /* SeasonStandingsTableView.swift in Sources */,
+				F984236228DB7E7C00344CF6 /* StandigsModel.swift in Sources */,
+				F9120D1C28D8640900F809C9 /* CellForLiguesBoard.swift in Sources */,
+				F984236028DB5C1900344CF6 /* SeasonStandingsTableController.swift in Sources */,
+				F984235228D9D68600344CF6 /* SeasonsLigueView.swift in Sources */,
+				F9120D1F28D8D76C00F809C9 /* imageDowload.swift in Sources */,
+				F9120D0728D8592900F809C9 /* LiguesObserver.xcdatamodeld in Sources */,
+				F9120D0128D8592900F809C9 /* LiguesBoardController.swift in Sources */,
+				F9120CFD28D8592900F809C9 /* AppDelegate.swift in Sources */,
+				F9120D2128D8D7FE00F809C9 /* LiguesModel.swift in Sources */,
+				F9120CFF28D8592900F809C9 /* SceneDelegate.swift in Sources */,
+				F9FB8E0D28DC568F00C77274 /* CellSeasonStandingsTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9120D0228D8592900F809C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9120D0328D8592900F809C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9120D0A28D8592A00F809C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9120D0B28D8592A00F809C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9120D0E28D8592A00F809C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9120D0F28D8592A00F809C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9120D1128D8592A00F809C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N8G2G522U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiguesObserver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOliver.LiguesObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9120D1228D8592A00F809C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N8G2G522U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiguesObserver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOliver.LiguesObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9120CF428D8592900F809C9 /* Build configuration list for PBXProject "LiguesObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9120D0E28D8592A00F809C9 /* Debug */,
+				F9120D0F28D8592A00F809C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9120D1028D8592A00F809C9 /* Build configuration list for PBXNativeTarget "LiguesObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9120D1128D8592A00F809C9 /* Debug */,
+				F9120D1228D8592A00F809C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9120D0528D8592900F809C9 /* LiguesObserver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9120D0628D8592900F809C9 /* LiguesObserver.xcdatamodel */,
+			);
+			currentVersion = F9120D0628D8592900F809C9 /* LiguesObserver.xcdatamodel */;
+			path = LiguesObserver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9120CF128D8592900F809C9 /* Project object */;
+}
